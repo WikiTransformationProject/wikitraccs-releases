@@ -1,1 +1,3 @@
-## Select "Releases" to download a release. For details and a step-by-step guide head over to [Wiki Transformation Project](https://www.wikitransformationproject.com).
+# 👉[DOWNLOAD LATEST RELEASE](https://github.com/WikiTransformationProject/wikitraccs-releases/releases)
+# 👉[QUICK START GUIDE](https://www.wikitransformationproject.com/docs/getting-started)
+# 👉[GET IN TOUCH](https://www.wikitransformationproject.com/contact)
