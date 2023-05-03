@@ -8,4 +8,4 @@ Before opening a new issue, please take the time to look at the list of already 
 
 ---
 
-### Need a SharePoint 🌳page tree🌳 and breadcrumb, just like in Confluence? WikiPakk has got you covered! Head over to https://www.wikipakk.com to learn more!
+### And after migrating: need a SharePoint 🌳page tree🌳 and breadcrumb, just like in Confluence? WikiPakk has got you covered! Head over to https://www.wikipakk.com to learn more!
