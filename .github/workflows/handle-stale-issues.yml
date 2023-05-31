@@ -17,4 +17,3 @@ jobs:
 
           stale-issue-label: 'stale'
           exempt-issue-labels: 'feature,improvement,type:bug-suspected,type:bug-confirmed,status:working-on-it'
-          only-labels: 'awaiting-feedback,awaiting-answers'
