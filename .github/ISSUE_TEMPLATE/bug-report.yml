@@ -36,7 +36,9 @@ body:
     id: version
     attributes:
       label: WikiTraccs Version
-      description: What version of WikiTraccs are you running?
+      description: |
+        What version of WikiTraccs are you running?
+        Note: Issues for the WikiPakk page tree should be created in the [WikiPakk repository](https://github.com/WikiTransformationProject/wikitraccs-wikipakk-releases).
       placeholder: v1.x.y
     validations:
       required: true  
