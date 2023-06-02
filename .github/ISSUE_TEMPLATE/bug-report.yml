@@ -36,7 +36,7 @@ body:
     id: version
     attributes:
       label: WikiTraccs Version
-      description: What version of our software are you running?
+      description: What version of WikiTraccs are you running?
       placeholder: v1.x.y
     validations:
       required: true  
@@ -58,8 +58,8 @@ body:
       label: Relevant log output or page storage format
       description: |
         Please copy and paste any relevant logs or page storage formats.
-        Have a look at the [Troubleshooting Strategies](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/#which-information-is-available-to-diagnose-issues) page for an overview of available log files. Log files always help.
-        Send confidential log files to contact@wikitransformationproject.com instead and reference this issue!
+        Have a look at the [Troubleshooting Strategies](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/#which-information-is-available-to-diagnose-issues) page for an overview of available log files.
+        Send confidential log files to contact@wikitransformationproject.com instead and reference this issue! Log files always help.
       render: shell
     validations:
       required: false
