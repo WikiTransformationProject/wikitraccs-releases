@@ -59,6 +59,7 @@ body:
       description: |
         Please copy and paste any relevant logs or page storage formats.
         Have a look at the [Troubleshooting Strategies](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/#which-information-is-available-to-diagnose-issues) page for an overview of available log files.
+        Have a look at the [Get the Confluence Storage Format](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/get-confluence-storage-format) page to learn how to get the storage format of a page.
         Send confidential log files to contact@wikitransformationproject.com instead and reference this issue! Log files always help.
       render: shell
     validations:
