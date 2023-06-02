@@ -1,0 +1,37 @@
+name: Feature Proposal
+description: Propose a new feature or improvement
+title: "[Feature] "
+labels: ["feature", "Needs: Triage :mag:"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the feature proposal you have.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to give feedback!
+  - type: textarea
+    attributes:
+      label: Feature Proposal
+      description: |
+        What is it that you'd like to see added to WikiTraccs? Or maybe an existing feature could be improved or extended? Please describe.
+        
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in, or copy and paste from the clipboard.
+    validations:
+      required: true
+  - type: dropdown
+    id: confluence-version
+    attributes:
+      label: Confluence Version
+      description: What version of Confluence are you migrating?
+      options:
+        - Confluence 6
+        - Confluence 7
+        - Confluence 8
+        - Confluence Cloud
+    validations:
+      required: false
