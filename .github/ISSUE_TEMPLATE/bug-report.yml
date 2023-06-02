@@ -1,0 +1,68 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug] "
+labels: ["type:bug-suspected", "Needs: Triage :mag:"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: |
+        A concise description of what you're experiencing.
+        
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in, or copy and past from the clipboard.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: WikiTraccs Version
+      description: What version of our software are you running?
+      placeholder: v1.x.y
+    validations:
+      required: true  
+  - type: dropdown
+    id: confluence-version
+    attributes:
+      label: Confluence Version
+      description: What version of Confluence are you migrating?
+      options:
+        - Confluence 6
+        - Confluence 7
+        - Confluence 8
+        - Confluence Cloud
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output or page storage format
+      description: Please copy and paste any relevant log output or page storage formats. Send confidential log files to contact@wikitransformationproject.com instead.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
