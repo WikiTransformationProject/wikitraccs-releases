@@ -58,7 +58,7 @@ body:
       label: Relevant log output or page storage format
       description: |
         Please copy and paste any relevant logs or page storage formats.
-        Have a look at the [Troubleshooting Strategies](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/#which-information-is-available-to-diagnose-issues) page for an overview of available log files.
+        Have a look at the [Troubleshooting Strategies](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/#which-information-is-available-to-diagnose-issues) page for an overview of available log files. Log files always help.
         Send confidential log files to contact@wikitransformationproject.com instead and reference this issue!
       render: shell
     validations:
