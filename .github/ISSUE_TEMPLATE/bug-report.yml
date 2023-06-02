@@ -20,13 +20,16 @@ body:
       description: |
         A concise description of what you're experiencing.
         
-        Tip: You can attach images by clicking this area to highlight it and then dragging files in, or copy and past from the clipboard.
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in, or copy and paste from the clipboard.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Expected Behavior
-      description: A concise description of what you expected to happen.
+      description: |
+        A concise description of what you expected to happen.
+                
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in, or copy and paste from the clipboard.        
     validations:
       required: true
   - type: input
@@ -53,7 +56,10 @@ body:
     id: logs
     attributes:
       label: Relevant log output or page storage format
-      description: Please copy and paste any relevant log output or page storage formats. Send confidential log files to contact@wikitransformationproject.com instead.
+      description: |
+        Please copy and paste any relevant logs or page storage formats.
+        Have a look at the [Troubleshooting Strategies](https://www.wikitransformationproject.com/docs/troubleshooting/troubleshooting-strategies/#which-information-is-available-to-diagnose-issues) page for an overview of available log files.
+        Send confidential log files to contact@wikitransformationproject.com instead and reference this issue!
       render: shell
     validations:
       required: false
