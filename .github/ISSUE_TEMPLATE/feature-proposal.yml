@@ -36,3 +36,10 @@ body:
         - Confluence Cloud
     validations:
       required: false
+  - type: checkboxes
+    attributes:
+      label: Confluence Data Center?
+      description: If you are on-premises, knowing the edition helps making the right decisions.
+      options:
+      - label: This is about Confluence Data Center
+        required: false
