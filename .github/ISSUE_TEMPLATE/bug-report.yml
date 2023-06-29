@@ -55,6 +55,13 @@ body:
         - Confluence Cloud
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Confluence Data Center?
+      description: If you are on-premises, knowing the edition might help diagnose issues.
+      options:
+      - label: This is about Confluence Data Center
+        required: false
   - type: textarea
     id: logs
     attributes:
