@@ -11,9 +11,10 @@ jobs:
         with:
           stale-issue-message: 'This issue is stale because it has been open 20 days with no activity. Remove stale label or comment, or this will be closed in 10 days.'
           close-issue-message: 'This issue was closed because it has been stalled for 10 days with no activity.'
-          days-before-stale: 20
-          days-before-close: 10
+          days-before-stale: 7
+          days-before-close: 7
           days-before-pr-close: -1
 
           stale-issue-label: 'stale'
-          exempt-issue-labels: 'feature,improvement,type:bug-suspected,type:bug-confirmed,status:working-on-it,ANNOUNCEMENT'
+          exempt-issue-labels: 'feature,improvement,status:working-on-it,ANNOUNCEMENT'
+          only-labels: 'awaiting-feedback'
